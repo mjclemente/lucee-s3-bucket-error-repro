@@ -1,6 +1,6 @@
 When using the built-in Amazon S3 file methods in Lucee, such as `directoryList()` for a bucket, an error appears in the console the first time they are encountered.
 
-To reproduce, you'll need an S3 bucket for testing purposes. This repro uses three environment variables, which you'll find in the .env.example file. Once you've set them up (or hardcoded them), clone this repository and with CommandBox run:
+To reproduce, you'll need an S3 bucket for testing purposes. This repro uses three environment variables (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_DEMO_BUCKET_NAME`). Once you've set them up (or hardcoded them), clone this repository and with CommandBox run:
 
 ```
 server start --debug --console
